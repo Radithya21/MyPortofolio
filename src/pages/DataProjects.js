@@ -65,7 +65,7 @@ export const MyProjects = [
         subtitle: 'Sistem Manajemen Rapat Sistem Informasi',
         number: 1,
         description: 'SERASI adalah aplikasi berbasis web yang dikembangkan untuk menyederhanakan dan mendigitalisasi manajemen rapat di departemen Sistem Informasi. Aplikasi ini dirancang khusus untuk memudahkan administrator rapat dalam mengelola seluruh siklus rapat, mengotomatiskan tugas-tugas penting seperti membuat undangan rapat, mencatat kehadiran, mendokumentasikan notulen rapat, dan menyimpan dokumen terkait. Hasilnya, SERASI secara signifikan meningkatkan efisiensi dan organisasi dibandingkan dengan proses manual.',
-        image: '/public/serasi1.png',
+        image: '/serasi1.png',
         badges: ['nodejs', 'express', 'tailwind', 'ejs', 'github', 'prisma'],
         keyFeatures: [
             'Manajemen absensi rapat secara digital dan terintegrasi.',
@@ -84,7 +84,7 @@ export const MyProjects = [
         subtitle: 'SPK Pemilihan Pantai Terbaik di Kota Padang',
         number: 2,
         description: 'Mengembangkan Sistem Pendukung Keputusan (SPK) berbasis web sebagai inisiatif mandiri, yang ditujukan untuk Dinas Pariwisata Provinsi Sumatera Barat. Aplikasi inovatif ini dirancang untuk memudahkan proses identifikasi dan pemeringkatan pantai-pantai terbaik di Kota Padang. Dengan mengimplementasikan metode TOPSIS (Technique for Order Preference by Similarity to Ideal Solution), sistem ini secara obyektif mengevaluasi pantai-pantai berdasarkan berbagai kriteria yang relevan seperti kebersihan, fasilitas, aksesibilitas, dan lain-lain. Hasil dari sistem ini memberikan rekomendasi yang jelas, tidak hanya menyederhanakan pengambilan keputusan pariwisata bagi dinas, tetapi juga menawarkan data konkret sebagai dasar untuk program pemeliharaan dan peningkatan kualitas pantai-pantai yang berada di peringkat bawah, sehingga mendukung pengembangan pariwisata berkelanjutan di Sumatera Barat.',
-        image: '/public/spk.png',
+        image: '/spk.png',
         badges: ['sqlite', 'react', 'express', 'sequelize', 'github'],
         keyFeatures: [
             'Evaluasi pantai berdasarkan berbagai kriteria seperti kebersihan, fasilitas, dan aksesibilitas.',
@@ -101,7 +101,7 @@ export const MyProjects = [
         subtitle: 'Website Portofolio Pribadi',
         number: 3,
         description: 'Portofolio pribadi interaktif dengan desain modern berbasis React, Tailwind CSS, dan Gsap.',
-        image: '/public/porto.png',
+        image: '/porto.png',
         badges: ['react', 'tailwind', 'framer', 'vite', 'github', 'html', 'css', 'javascript', 'gsap',],
         keyFeatures: [
             'Desain responsif dan modern menggunakan Tailwind CSS.',
@@ -119,7 +119,7 @@ export const MyProjects = [
         subtitle: 'Game Berbasis Java OOP',
         number: 4,
         description: 'sebuah game petualangan bawah laut interaktif yang dibuat menggunakan Greenfoot dan diimplementasikan sepenuhnya dengan prinsip-prinsip Pemrograman Berorientasi Objek (OOP) di Java. Dalam game ini, pemain berperan sebagai penyelam yang memiliki misi untuk mengumpulkan emas dan kunci yang tersembunyi. Untuk mencapainya, pemain harus menavigasi lingkungan bawah laut yang penuh dengan rintangan, termasuk menghindari ikan-ikan yang ganas dan serangan proyektil berapi-api dari tengkorak misterius. Proyek ini secara efektif menunjukkan kemampuan saya dalam merancang logika permainan yang kompleks, mengelola interaksi objek, dan menerapkan paradigma OOP untuk menciptakan pengalaman bermain game yang menantang dan imersif.',
-        image: '/public/gamePBO.png',
+        image: '/gamePBO.png',
         badges: ['java', 'canva', 'github', 'greenfoot'],
         keyFeatures: [
             'Permainan petualangan bawah laut dengan misi mengumpulkan emas dan kunci.',
@@ -138,7 +138,7 @@ export const MyProjects = [
         subtitle: 'Aplikasi Manajemen Rapat via CLI',
         number: 5,
         description: 'Law Firm App adalah aplikasi Command Line Interface (CLI) yang dirancang untuk memudahkan pengelolaan kasus di firma hukum. Aplikasi ini menyediakan fitur CRUD (Create, Read, Update, Delete) untuk data kasus, serta dilengkapi dengan statistik kasus menggunakan operasi matematika sederhana. Dengan antarmuka berbasis teks yang intuitif, pengguna dapat menambah, melihat, memperbarui, dan menghapus data kasus secara efisien, serta mendapatkan ringkasan statistik kasus secara langsung.',
-        image: '/public/lawfirm.png',
+        image: '/lawfirm.png',
         badges: ['java', 'mysql', 'github'],
         keyFeatures: [
             'Menambah, melihat, memperbarui, dan menghapus data kasus (CRUD) secara efisien.',
@@ -156,7 +156,7 @@ export const MyProjects = [
         subtitle: 'Aplikasi POS Toko Selai via Borland',
         number: 6,
         description: 'untuk toko selai yang dikembangkan menggunakan Borland C++. Aplikasi ini memungkinkan pengelolaan stok bahan dan produk, pencatatan transaksi penjualan, serta pencetakan struk secara otomatis. Dengan antarmuka yang mudah digunakan, aplikasi ini sangat cocok untuk bisnis kecil hingga menengah yang membutuhkan sistem kasir offline yang ringan dan efisien.',
-        image: '/public/jamstore.jpg',
+        image: '/jamstore.jpg',
         badges: ['c++', 'borland', 'github'],
         keyFeatures: [
             'Manajemen stok bahan baku dan produk secara real-time.',
