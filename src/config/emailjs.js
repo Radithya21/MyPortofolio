@@ -2,11 +2,12 @@
 // Dapatkan credentials ini dari https://www.emailjs.com/
 
 export const EMAILJS_CONFIG = {
-    SERVICE_ID: 'service_ch9wnob', // Ganti dengan Service ID dari EmailJS
-    TEMPLATE_ID: 'template_0b4sevn', // Ganti dengan Template ID dari EmailJS
-    PUBLIC_KEY: 'wbh_IgiuWzfCgnedG', // Ganti dengan Public Key dari EmailJS
-    TO_EMAIL: 'dimasdrn21@gmail.com' // Email tujuan
-};
+    SERVICE_ID: import.meta.env.VITE_EMAILJS_SERVICE_ID,
+    TEMPLATE_ID: import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+    PUBLIC_KEY: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+    TO_EMAIL: import.meta.env.VITE_EMAILJS_RECEIVER,
+  };
+  
 
 // Template email yang disarankan:
 /*
